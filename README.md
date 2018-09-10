@@ -8,3 +8,4 @@ firefox &   - atver firefox
 https://edx2.etf.rtu.lv/portal  -  Atver sakai   
 man kkas -  laikam paskaidro par kkaadu komandu.  
 type kkas - paskaidro komandu.  
+tty   - teletypewriter
