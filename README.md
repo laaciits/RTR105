@@ -6,4 +6,4 @@ history - pagaatnes komandas ko tikko raxtiji
 Divas atstarses lai raxtiitu nakamaja rinda KKUR, hz kur.  
 firefox &   - atver firefox  
 https://edx2.etf.rtu.lv/portal  -  Atver sakai   
-man uname -  laikam paskaidro par kkaadu komandu.  
+man kkas -  laikam paskaidro par kkaadu komandu.  
