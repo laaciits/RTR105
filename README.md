@@ -30,6 +30,15 @@ ls -l - paskataas kaadi faili ir datoraa saglabaatii/izveidoti
 mv *1*.txt Music/    - Paarvietot viss failus kuriem nosaukumnaa ir cipars 1 un visus shos failus parvuietot mapiitee music  
 mv ../*.text ./     - paarvietot liimeni augstak , panjemt visus failus .txt un nolikt Te .   
 
+../  -   LIImeni augstak, tas kas atrodas augstaaka mape kura esi iekshaa, laikam  
+mv fails101.txt fails102.txt - paarsauc(rename) failu  
+mv fails1.txt ../fails.txt  - novieto failu kkur citur ar jaunu nosaukumu  
+rm Music/*.txt  - Izdzeeshs jebkuru faila nosaukumu Music mapee, kura formaats ir .txt   
+ls Music/   -  Paraad kas iekshaa tajaa mapee  
+
+
+
+
 
 
  
