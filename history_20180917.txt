@@ -35,7 +35,7 @@
    35  man rmdir
    36  man rm
    37  rm -r ManaMape/
-   38  ls
+   38  ls  
    39  man echoman echo
    40  echo "Teksts"
    41  echo "Laaaaaaaaaaacis
