@@ -1,0 +1,91 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  who
+    5  pwd
+    6  ls
+    7  firerfox
+    8  firefox
+    9  cd D
+   10  firefox 
+   11  wpd
+   12  pwd
+   13  mkdir
+   14  mkdir ManaMape
+   15  ls
+   16  ls -l
+   17  cd ManaMape$ 
+   18  cd /ManaMape$
+   19  ls
+   20  ls -l
+   21  ls -la
+   22  cd .
+   23  pwd
+   24  rmdir ManaMape/
+   25  ls
+   26  mkdir ManaMape
+   27  cd ManaMape/
+   28  mkdir ManaApakshMape
+   29  cd ManaapakshMape
+   30  cd ManaApakshMape
+   31  pwd
+   32  cd
+   33  rmdir ManaMape/
+   34  amn rmdirman rmdir
+   35  man rmdir
+   36  man rm
+   37  rm -r ManaMape/
+   38  ls
+   39  man echoman echo
+   40  echo "Teksts"
+   41  echo "Laaaaaaaaaaacis
+Laaaaaaaaaaaaacis
+Laaaaaaaaaaacis
+Laaaaaaaaaaaaaaaaaaaaacis
+"
+   42  echo "Laaaaaaaaacis\nLaaaaaacis\nLaaaaaaacis"
+   43  echo -e "Laaaaaaaaacis\nLaaaaaacis\nLaaaaaaacis"
+   44  echo "Laacis" > fails1.txt
+   45  ls -
+   46  ls -l
+   47  cat fails1.txt
+   48  echo "Labaaks lacis " > fails1.txt
+   49  cat fails1.txt
+   50  echo "Laacis" > fails1.txt
+   51  cat fails1.txt
+   52  echo "Labaaks lacis " >> fails1.txt
+   53  cat fails1.txt
+   54  ls -l
+   55  cat fails1.txt
+   56  ls -l
+   57  nano
+   58  nano fails1.txt
+   59  cat fails2.txt
+   60  pwd
+   61  ls -l
+   62  chmod 540 fails1.txt
+   63  ls -l
+   64  echo "Laacis" > fails1.txt
+   65  cat fails1.txt
+   66  nano fails1.txt
+   67  ls -l
+   68  echo "Laacis" > ../fails1.txt
+   69  cp fails1.txt fails101.txt
+   70  ls -l
+   71  mv *1*.txt Music/
+   72  ls -l
+   73  cd Music/
+   74  mv ../*.text ./
+   75  mv ../*.txt ./
+   76  ls
+   77  mv fails101.txt fails102.txt
+   78  ls
+   79  mv fails1.txt ../fails.txt
+   80  ls
+   81  cd ..
+   82  ls
+   83  rm Music/*.txt
+   84  ls
+   85  ls Music/
+   86  history
+   87  history > history_20180917.txt
