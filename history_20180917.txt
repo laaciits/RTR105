@@ -88,4 +88,4 @@ Laaaaaaaaaaaaaaaaaaaaacis
    84  ls
    85  ls Music/
    86  history
-   87  history > history_20180917.txt
+   87  history > history_20180917.txt  
