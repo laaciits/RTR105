@@ -36,6 +36,7 @@ mv fails1.txt ../fails.txt  - novieto failu kkur citur ar jaunu nosaukumu
 rm Music/*.txt  - Izdzeeshs jebkuru faila nosaukumu Music mapee, kura formaats ir .txt   
 ls Music/   -  Paraad kas iekshaa tajaa mapee 
 .      -  tas ir Sheit  
+cd        - TIE IEKSHAA KKADA MAPEEEE
 
 
 
