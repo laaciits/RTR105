@@ -1,0 +1,24 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  git clone https://github.com/laaciits/RTR105
+    5  ls -l
+    6  pwd
+    7  cd RTR105/
+    8  pwd
+    9  python
+   10  ipython
+   11  idle &
+   12  ls
+   13  ls -l
+   14  cat dgr_20181001.py 
+   15  nano test_1.py
+   16  python test_1.py
+   17  nano test_1.py
+   18  ls -l
+   19  ls -l test*
+   20  chmod 764 test_1.py
+   21  ls -l test*
+   22  ./test_1.py
+   23  idle test_1.py &
+   24  history > history_29181991.txt
