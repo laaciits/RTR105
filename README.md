@@ -12,7 +12,8 @@ type (kkas) - paskaidro komandu.
 tty   - teletypewriter  
 pwd - paraada kur mes tagad esam
 cs Music/  - ieiet mapiitee iekshaa.    
-cd D  , tad Ls  , tad cd De  un tab dropeet ,liidz dekstop paraadas   
+cd D  , tad Ls  , tad cd De  un tab dropeet ,liidz dekstop paraadas 
+cd -  change directory, MAPEE IET IEKSHAA HZ KAADA VEIDAAAA   
 cd /home/user/  lai tiktu home/user.    /ho(SPIEST TAB)/us(SPIEST TAB)    
 ~ tilde  
 Lai tiktu mmaajaas   cd /     , tad ar pwd parbauda vai rada  /   .  Tad  uzraxta cd un atkal ar pwd parbauda kur esi  
@@ -38,9 +39,32 @@ ls Music/   -  Paraad kas iekshaa tajaa mapee
 .      -  tas ir Sheit  
 cd        - TIE IEKSHAA KKADA MAPEEEE
 
+git clone https://github.com/laaciits/RTR105    -  Lai sheerotu ar github
+cd RTR105/    - lai tiktu ikeshaa mapee 
+python   - iesleedz python
+ipython   -  iesleedz HZ kkaadu python
+nano test_1.py  - atver to pitona failu kuru pac uztaisiju 
 
 
 
 
+--------------------------------- TAJAA PITONa failaa kad caur nano iet
+#!/usr/bin/python
 
- 
+a =  10
+b = 1.89
+C = 'D'
+
+print("a = %d"%(a))  
+print("b = %.4f"%(b)))      4 cipari aiz komata
+print("c = %s"%(c))
+
+a = 56
+b = 8.96
+C = 'F'
+print("a = %d"%(a))
+print("b = %.10f"%(b))     10 cipari aiz komata
+print("c = %s"%(c))
+
+
+
