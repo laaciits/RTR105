@@ -66,5 +66,6 @@ print("a = %d"%(a))
 print("b = %.10f"%(b))     10 cipari aiz komata
 print("c = %s"%(c))
 
+   -   N=2^n
 
 
