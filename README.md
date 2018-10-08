@@ -68,4 +68,13 @@ print("c = %s"%(c))
 
    -   N=2^n
 
+idle & lai atvertu pitoninju skaito
+file =-  save as lai sagblabaatu to meeslu
+./git-upload 20181008_15_11  - lai augsupieladetu githubaaaaaaaaaaaa
 
++  = saskaita
+- =  atnjem
+* = sareizina
+/ = dala
+** = kaapina kvadraata gan jau
+% = hz ko tas nozime

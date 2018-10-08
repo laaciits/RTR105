@@ -1,0 +1,21 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -l
+    4  git clone https://github.com/laaciits/RTR105
+    5  cd RTR105
+    6  python
+    7  ls -l
+    8  cat dgr_20181008
+    9  cat dgr_20181008.py
+   10  pobeda
+   11  ls -l
+   12  cd README.md
+   13  cd README1.md
+   14  nano README.md
+   15  history
+   16  history > history_20181008.txt
+   17  ls -l
+   18  nano README.md
+   19  history > history_20181008.txt
+   20  nano README.md
+   21  history > history_20181008.txt
