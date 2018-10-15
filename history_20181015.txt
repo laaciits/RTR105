@@ -1,0 +1,21 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -l
+    4  git clone https://github.com/laaciits/RTR105
+    5  suk
+    6  cd RTR105
+    7  idle &
+    8  git clone https://github.com/laaciits/RTR105ls -l
+    9  s
+   10  cd
+   11  cd RTR105
+   12  ls -l
+   13  nano sex.py
+   14  ls -l
+   15  mdir sex.py
+   16  ls -l
+   17  nano sex.py
+   18  mv sex.py normix.py
+   19  ls -l
+   20  nano README.md
+   21  history > history_20181015.txt
