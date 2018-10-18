@@ -78,3 +78,8 @@ file =-  save as lai sagblabaatu to meeslu
 / = dala
 ** = kaapina kvadraata gan jau
 % = hz ko tas nozime
+
+
+./git-upload yyyymmdd_hh_mm.txt   - lai savu repozitariju augsupieladetu
+history > history__yyyymmdd.txt    - lai veesturi saglabaatu
+
