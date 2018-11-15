@@ -1,0 +1,7 @@
+plt.grid()
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.plot(x, y, color = "#AE00E4")
+plt.title('Funkcija $cos(x)$')
+plt.plot(x, y)
+plt.show()
