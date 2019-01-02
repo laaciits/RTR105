@@ -1,3 +1,5 @@
+Funkcija, kurai veicu apēķinus ir sin(x/2).
+Pirmais solis, sinusa izvirzījuma rindā formulas atrašana.
 from math import sin
 
 def manssin(x):
@@ -5,7 +7,7 @@ def manssin(x):
     a = (-1)**0*x**0/(1)
     S = a
     print("a0 = %6.2f S0 = %6.2f"%(a,S))
-
+Otrais solis, rekurences reizinātāja aprēķināšana. Izvēlējos, ka k ir mazāks par 500. Tālāk izvēlējos formulas un centos uzraxtīt, lai programma aprēķinātu pareizi.
     while k < 500:
         k = k + 1
         R = (-1)*x*x/((2*k)*(2*k-1))
@@ -17,7 +19,7 @@ def manssin(x):
     print("a500 = %6.2f S500 = %6.2f"%(a,S))
     S = 1/2 + S/2
     return S
-
+Trešais solis, uzraxtīt kodu, kas attēlos aprēķināto.
 print("sin(x/2) aprekinasana:")
 f = input("Ievadi argumentu (x): ")
 x = float(f)
