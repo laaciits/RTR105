@@ -1,0 +1,30 @@
+import sys
+sys.path.append("/usr/lib/python2.7/dist-packages/numpy/")
+sys.path.append("/usr/lib/python2.7/dist-packages/matplotlib/")
+
+Pirmais solis, izveidot formulas. 
+
+from numpy import *
+x = linspace(0, 7, 11)
+y = sin(x**2)
+y1 = x**2
+y2= y1 -x**4/2*(1*2*3*4)
+y3= y2 - x**6/2*(1*2*3*4*5*6)
+y4= y3-x**8/2*(1*2*3*4*5*6*7*8)
+y5= y4-x**10/2*(1*2*3*4*5*6*7*8*9*10)
+
+Otrais solis, importē pyplot as plt, lai varētu veikt formulu attēlojumu. Pēc tam piešķir grafikam virsrakstu, kā arī x un y asij nosaukumus.
+
+from matplotlib import pyplot as plt
+plt.grid()
+plt.xlabel("x")
+plt.ylabel("f(x)")
+plt.title("Funkcija $sin(x/2)$")
+
+plt.plot(x, y)
+plt.plot(x,y2)
+plt.plot(x,y3)
+plt.plot(x,y4)
+plt.plot(x,y5)
+plt.show()
+
