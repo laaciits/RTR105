@@ -1,0 +1,52 @@
+from numpy import sin, linspace
+from matplotlib import pyplot as plt
+
+Pirmais solis, definē funkcijas.
+
+def f(x):
+    return sin(x/2)
+        
+x = linspace(0,6,21)
+y = f(x)
+
+Otrais solis, Definē masīvu, kurā tiks ievietotas pirmās kārtas atvasinājuma atbildes.
+
+dv = []
+deltax = x[1] - x[0]
+N = len(x)
+
+for i in range(N):
+    temp = (f(x[i] + deltax) - f(x[i])) / deltax
+    dv.append(temp)
+    
+ Trešais solis, definē otro masīvu, kurā tiks ievietotas ortās kārtas atvasinājuma atbildes.
+    
+ seconddv = []
+for i in range(N-1):
+    temp = (dv[i+1] - dv[i]) / deltax
+    seconddv.append(temp)   
+    
+Ceturtais solis, definē pēdējo masīvu, kurā tiks ievietotas grafika elementu apzīmējuma informācija.    
+legend = []
+
+plt.axis([0,5,-1,1.5])
+plt.grid()
+plt.xlabel("x")
+plt.ylabel("f(x)")
+plt.title("Funkcija $sin(x/2)$ un taas atvasinaajumi")
+plt.plot(x,y,"k")
+legend.append("$sin(x/2)$ - taisnas liinijas")
+plt.plot(x,y,"ro")
+legend.append("$sin(x/2)$ - punkti")
+plt.plot(x,dv,"y")
+legend.append("$sin(x/2)$ atv. - taisnas linijas")
+plt.plot(x,dv,"go")
+legend.append("$sin(x/2)$ atv. - dazhi punkti")
+plt.plot(x[0:len(x)-1],seconddv,"m")
+legend.append("$sin(x/2)$ 2.k. atv. - taisnas linijas")
+plt.plot(x[0:len(x)-1],seconddv,"bo")
+legend.append("$sin(x/2)$ 2.k. atv. - dazhi punkti")
+plt.legend(legend, prop={'size': 8}, loc=3, fancybox=True, framealpha=0.5, facecolor="green")
+plt.show()
+print("linspace komandas veidotais masiivs:",x)
+print("Funckijas vērtiiba pie x=3 :",f(3))
