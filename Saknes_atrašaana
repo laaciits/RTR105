@@ -2,6 +2,8 @@
 from math import sin, fabs
 from time import sleep
 
+Pirmais solis, definē mainīgos.
+
 def f(x):
          return sin(x/2)
               
@@ -12,6 +14,8 @@ b = 4
 funa = f(a)
 funb = f(b)
 
+Ja mainīgo reizinājums ir lielāks par nulli, tad vai nu sakne intervālā ir, vai nav. 
+
 if (funa * funb > 0.0 ):
     print (" Dotajā intervālā [%s, %s] Sakņu nav " %(a,b))
     sleep(1); exit()
@@ -19,6 +23,8 @@ else:
     print ("Dotajā intervālā sakne(s) ir!")
 
 deltax = 0.01
+
+Precizitāte ar kādu tiek meklēta sakne ir 0.01
 
 print (" sin(x/2) sakne ir : ", x)
 print (" f(x) = ", sin(x/2))
