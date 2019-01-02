@@ -1,0 +1,43 @@
+
+from numpy import random,sin 
+from matplotlib import pyplot as plt
+
+Pirmais solis, definē mainīgos.
+
+N = 10000
+
+a = 0
+b = 5
+c = 1
+
+x= random.uniform(a, b, N)
+y = random.uniform(a, c, N)
+
+Otrais solis, realizē kodu.
+
+plt.grid()
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.title('sin x/2 funkcija un integrālis')
+plt.plot(x, y, 'ko')
+
+Trešais solis, tiek aprēķināta funkcijas sin(x/2) integrālis
+
+N1 = 1
+
+for i in range(N):
+    if y[i] < (sin(x[i]/2))/ 2:
+        plt.plot(x[i], y[i], 'go')
+        N1 = N1 + 1
+    else:
+        plt.plot(x[i], y[i], 'ro')
+        
+plt.show()
+
+Ceturtais solis, aprēķina laukumu un to attēlo grafiski.
+
+S = (b - a) * (c - a)
+jaunaS = float(S * N1 / N)
+print("Laukuma skaitliskā vertība:", )
+print(jaunaS)
